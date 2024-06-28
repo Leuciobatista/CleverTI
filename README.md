@@ -56,3 +56,24 @@ NoteRepository
 Database:
 Notes
 Users
+
+Restful API
+GET /notes: Retrieve all notes of the authenticated user.
+POST /notes: Create a new note.
+DELETE /notes/{id}: Delete a specific note.
+PUT /notes/{id}: Update an existing note.
+Web Server
+Implemented using a framework like Express (Node.js), Spring Boot (Java), or Flask (Python).
+Middleware for authentication.
+CRUD operations for notes.
+Setup and Run
+Java Backend
+Open the backend directory in your preferred Java IDE.
+Run the unit tests to verify the implementation.
+React Frontend
+Navigate to the ui-assessment directory.
+Install dependencies: npm install
+Start the development server: npm start
+Run the tests: npm test
+System Design Documentation
+The system-design directory contains all the necessary documentation and diagrams for the system design.
